@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Web Application</title>
+    
+    <!-- linking favicon icon for the browser into this html file-->
+  <link rel="icon" href="favicon.ico">
+  
+  <style>
+    body {
+      background-color: #98DFD6;
+      text-align: center;
+    }
+    </style>
+
+</head>
+<body>
+  <h1>Please Choose a City to check their current weather:</h1>
+
+    <!--Creating a form whose action is going to go to our root route and it will make a post request-->
+    <form action="/" method="post">
+        <label for="cityInput">City Name: </label>
+    <input id= "cityInput" type="text" name="cityName">
+    <button type="submit">Enter</button>
+    </form>
+    
+    
+</body>
+</html>
